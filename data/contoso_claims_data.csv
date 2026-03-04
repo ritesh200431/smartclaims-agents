@@ -1,0 +1,501 @@
+claim_id,policy_number,policyholder_name,claim_date,incident_date,incident_type,claim_amount,approved_amount,status,adjuster_name,fraud_flag,fraud_score,region,policy_type,deductible,settlement_date,processing_days
+CLM-0001,POL-490463,Customer_0001,2024-08-13,2024-08-09,Liability,135971.12,0,Under Review,Thomas Brown,False,0.21,South,Life,0,,19
+CLM-0002,POL-827198,Customer_0002,2025-08-31,2025-08-23,Natural Disaster,120328.17,73597.39,Settled,Lisa Anderson,False,0.21,North,Property,5000,2025-10-11,41
+CLM-0003,POL-996972,Customer_0003,2025-04-11,2025-04-05,Theft,17597.94,0,Under Review,Sarah Johnson,False,0.06,East,Auto,500,,10
+CLM-0004,POL-965171,Customer_0004,2024-09-23,2024-09-17,Auto Collision,48320.45,0,Denied,Sarah Johnson,True,0.92,Central,Liability,1000,2024-12-15,83
+CLM-0005,POL-100656,Customer_0005,2025-06-27,2025-06-26,Theft,17830.02,0,Pending,Maria Garcia,False,0.27,Central,Life,0,,4
+CLM-0006,POL-636451,Customer_0006,2025-05-22,2025-05-20,Natural Disaster,104431.99,0,Pending,Aisha Mohammed,False,0.1,Central,Health,250,,25
+CLM-0007,POL-672625,Customer_0007,2024-09-12,2024-09-07,Theft,26052.97,0,Pending,Aisha Mohammed,False,0.3,North,Health,250,,21
+CLM-0008,POL-464399,Customer_0008,2025-12-05,2025-11-22,Medical Claim,115151.93,84293.46,Settled,David Kim,False,0.15,East,Property,2500,2025-12-20,15
+CLM-0009,POL-648936,Customer_0009,2025-03-20,2025-03-07,Natural Disaster,412398.89,0,Denied,David Kim,False,0.19,Central,Property,5000,2025-06-01,73
+CLM-0010,POL-135855,Customer_0010,2025-04-01,2025-04-01,Liability,84336.63,0,Under Review,Aisha Mohammed,False,0.18,Central,Life,0,,1
+CLM-0011,POL-373676,Customer_0011,2025-02-14,2025-02-07,Natural Disaster,369581.68,0,Under Review,Sarah Johnson,False,0.14,West,Liability,1000,,5
+CLM-0012,POL-574842,Customer_0012,2024-11-25,2024-11-18,Natural Disaster,196390.98,152910.05,Settled,Thomas Brown,False,0.03,East,Life,0,2025-02-06,73
+CLM-0013,POL-433694,Customer_0013,2024-10-04,2024-10-01,Property Damage,78974.71,0,Denied,Lisa Anderson,False,0.16,East,Auto,1000,2024-11-27,54
+CLM-0014,POL-367848,Customer_0014,2024-07-19,2024-07-12,Liability,197778.18,0,Pending,Thomas Brown,False,0.04,Central,Health,250,,21
+CLM-0015,POL-733702,Customer_0015,2024-08-18,2024-08-13,Natural Disaster,261921.81,0,Denied,David Kim,True,0.9,Central,Auto,1000,2024-10-26,69
+CLM-0016,POL-209690,Customer_0016,2025-01-21,2025-01-18,Liability,92632.93,0,Denied,Sarah Johnson,False,0.17,South,Auto,1000,2025-04-08,77
+CLM-0017,POL-945737,Customer_0017,2025-02-16,2025-02-15,Liability,170148.8,0,Denied,Aisha Mohammed,False,0.2,West,Auto,1500,2025-04-22,65
+CLM-0018,POL-148695,Customer_0018,2025-05-16,2025-05-12,Natural Disaster,405869.07,0,Denied,James Wilson,False,0.08,South,Health,250,2025-07-07,52
+CLM-0019,POL-275729,Customer_0019,2025-11-21,2025-11-19,Natural Disaster,167274.06,0,Under Review,David Kim,False,0.17,South,Health,500,,11
+CLM-0020,POL-280031,Customer_0020,2024-12-26,2024-12-25,Fire Damage,360638.21,0,Under Review,Michael Chen,False,0.38,South,Life,0,,21
+CLM-0021,POL-162982,Customer_0021,2025-10-06,2025-09-29,Medical Claim,58312.87,36819.49,Approved,James Wilson,False,0.13,East,Life,0,2025-12-26,81
+CLM-0022,POL-183689,Customer_0022,2025-11-01,2025-10-31,Liability,184404.68,0,Pending,Lisa Anderson,False,0.31,Central,Life,0,,5
+CLM-0023,POL-306392,Customer_0023,2025-09-02,2025-08-29,Medical Claim,69038.68,53659.56,Settled,Robert Taylor,True,0.84,Central,Property,5000,2025-10-08,36
+CLM-0024,POL-922369,Customer_0024,2024-09-15,2024-09-11,Theft,13548.3,0,Under Review,Michael Chen,False,0.21,South,Life,0,,30
+CLM-0025,POL-136687,Customer_0025,2024-09-16,2024-09-15,Fire Damage,117737.17,98727.6,Settled,Priya Patel,False,0.27,West,Life,0,2024-10-25,39
+CLM-0026,POL-680517,Customer_0026,2025-11-01,2025-10-21,Liability,118055.77,0,Pending,Michael Chen,False,0.23,Central,Auto,1000,,6
+CLM-0027,POL-687163,Customer_0027,2024-08-09,2024-08-08,Fire Damage,147677.73,0,Pending,Aisha Mohammed,False,0.33,South,Auto,1500,,11
+CLM-0028,POL-346028,Customer_0028,2024-11-03,2024-10-30,Liability,67822.45,0,Denied,Lisa Anderson,False,0.17,West,Life,0,2024-12-24,51
+CLM-0029,POL-125360,Customer_0029,2025-06-05,2025-05-28,Natural Disaster,412857.67,0,Denied,Aisha Mohammed,False,0.24,North,Health,250,2025-08-11,67
+CLM-0030,POL-343813,Customer_0030,2024-09-26,2024-09-14,Natural Disaster,313696.9,0,Pending,Lisa Anderson,False,0.28,South,Health,1000,,11
+CLM-0031,POL-123174,Customer_0031,2025-04-14,2025-04-13,Natural Disaster,235871.31,0,Denied,Maria Garcia,False,0.09,West,Liability,2000,2025-05-01,17
+CLM-0032,POL-567663,Customer_0032,2025-12-23,2025-12-10,Auto Collision,15275.83,0,Under Review,Priya Patel,False,0.21,East,Auto,500,,9
+CLM-0033,POL-187853,Customer_0033,2025-10-14,2025-10-05,Theft,33999.31,0,Pending,Maria Garcia,False,0.28,West,Auto,1500,,30
+CLM-0034,POL-448925,Customer_0034,2025-07-22,2025-07-15,Theft,21487.94,14932.44,Approved,Aisha Mohammed,False,0.34,South,Health,500,2025-08-23,32
+CLM-0035,POL-281067,Customer_0035,2025-03-21,2025-03-16,Property Damage,76619.63,75180.51,Approved,James Wilson,False,0.02,South,Property,1000,2025-05-26,66
+CLM-0036,POL-858244,Customer_0036,2025-01-10,2025-01-09,Medical Claim,98499.71,93976.35,Approved,Priya Patel,False,0.22,East,Life,0,2025-02-12,33
+CLM-0037,POL-852258,Customer_0037,2024-12-03,2024-11-26,Medical Claim,37261.03,0,Denied,Maria Garcia,False,0.09,Central,Property,2500,2025-02-06,65
+CLM-0038,POL-508075,Customer_0038,2025-04-11,2025-04-05,Natural Disaster,271067.88,0,Under Review,James Wilson,False,0.38,West,Health,1000,,2
+CLM-0039,POL-432556,Customer_0039,2025-12-14,2025-12-01,Theft,19826.82,0,Pending,Maria Garcia,False,0.34,East,Liability,2000,,1
+CLM-0040,POL-307391,Customer_0040,2024-12-08,2024-11-26,Theft,39718.21,0,Denied,Maria Garcia,False,0.24,Central,Health,250,2024-12-23,15
+CLM-0041,POL-530573,Customer_0041,2025-12-04,2025-11-21,Fire Damage,160692.48,0,Denied,Priya Patel,False,0.04,West,Auto,500,2025-12-13,9
+CLM-0042,POL-651157,Customer_0042,2025-05-01,2025-04-17,Fire Damage,215856.41,186620.46,Approved,Robert Taylor,False,0.22,North,Life,0,2025-06-06,36
+CLM-0043,POL-914772,Customer_0043,2025-02-01,2025-01-21,Natural Disaster,119035.43,0,Denied,Thomas Brown,False,0.34,North,Health,250,2025-03-04,31
+CLM-0044,POL-582802,Customer_0044,2024-08-09,2024-08-01,Fire Damage,287467.14,257619.5,Approved,Sarah Johnson,False,0.21,East,Auto,1000,2024-10-03,55
+CLM-0045,POL-481348,Customer_0045,2024-12-08,2024-11-27,Property Damage,189764.03,0,Under Review,Sarah Johnson,False,0.36,Central,Auto,1500,,29
+CLM-0046,POL-821746,Customer_0046,2025-08-15,2025-08-12,Medical Claim,115381.88,0,Pending,Priya Patel,False,0.4,South,Auto,500,,4
+CLM-0047,POL-698105,Customer_0047,2024-10-04,2024-09-22,Natural Disaster,427620.16,0,Under Review,Priya Patel,False,0.28,East,Property,2500,,3
+CLM-0048,POL-673401,Customer_0048,2025-02-05,2025-01-25,Auto Collision,24615.41,0,Pending,Priya Patel,False,0.12,West,Liability,2000,,3
+CLM-0049,POL-328330,Customer_0049,2024-10-03,2024-09-24,Property Damage,211860.37,190027.44,Settled,James Wilson,False,0.34,South,Life,0,2024-12-07,65
+CLM-0050,POL-700395,Customer_0050,2025-09-13,2025-09-05,Natural Disaster,140311.7,0,Pending,David Kim,False,0.33,Central,Liability,2000,,3
+CLM-0051,POL-751908,Customer_0051,2025-12-03,2025-11-19,Natural Disaster,184136.23,123212.38,Approved,David Kim,False,0.36,East,Auto,500,2026-03-02,89
+CLM-0052,POL-880266,Customer_0052,2025-01-04,2025-01-03,Fire Damage,341767.27,299015.84,Settled,Lisa Anderson,False,0.02,East,Health,500,2025-01-08,4
+CLM-0053,POL-304249,Customer_0053,2025-12-20,2025-12-09,Natural Disaster,78355.23,47416.34,Approved,Michael Chen,True,0.9,South,Life,0,2026-03-10,80
+CLM-0054,POL-474464,Customer_0054,2025-07-20,2025-07-15,Liability,164470.54,148601.38,Approved,Maria Garcia,False,0.04,West,Property,1000,2025-09-04,46
+CLM-0055,POL-594347,Customer_0055,2025-01-22,2025-01-16,Fire Damage,23476.83,0,Pending,Michael Chen,False,0.04,East,Auto,500,,15
+CLM-0056,POL-136214,Customer_0056,2025-07-09,2025-06-30,Fire Damage,37609.05,29686.03,Settled,David Kim,False,0.36,North,Health,1000,2025-08-31,53
+CLM-0057,POL-754227,Customer_0057,2025-08-24,2025-08-18,Property Damage,65865.67,0,Denied,Robert Taylor,False,0.28,Central,Property,2500,2025-09-07,14
+CLM-0058,POL-778953,Customer_0058,2024-12-04,2024-11-27,Theft,22242.21,0,Under Review,James Wilson,False,0.11,South,Life,0,,22
+CLM-0059,POL-302675,Customer_0059,2025-01-30,2025-01-16,Natural Disaster,335100.62,229815.08,Approved,Priya Patel,False,0.18,East,Life,0,2025-03-06,35
+CLM-0060,POL-859482,Customer_0060,2024-12-09,2024-11-29,Natural Disaster,359128.4,0,Pending,Aisha Mohammed,False,0.23,East,Property,1000,,2
+CLM-0061,POL-238550,Customer_0061,2025-10-25,2025-10-11,Liability,149132.82,0,Pending,James Wilson,False,0.06,South,Auto,1500,,3
+CLM-0062,POL-890098,Customer_0062,2024-08-03,2024-07-21,Property Damage,6652.13,0,Under Review,David Kim,False,0.06,South,Life,0,,21
+CLM-0063,POL-254735,Customer_0063,2025-07-02,2025-06-23,Fire Damage,216754.15,0,Under Review,Michael Chen,False,0.07,North,Auto,1500,,29
+CLM-0064,POL-823730,Customer_0064,2025-11-03,2025-11-03,Natural Disaster,477115.46,335737.14,Approved,James Wilson,False,0.3,Central,Life,0,2025-12-12,39
+CLM-0065,POL-393966,Customer_0065,2025-03-19,2025-03-10,Natural Disaster,478908.97,0,Under Review,David Kim,False,0.02,West,Life,0,,22
+CLM-0066,POL-217395,Customer_0066,2024-11-22,2024-11-11,Fire Damage,160581.65,0,Under Review,James Wilson,False,0.34,North,Life,0,,7
+CLM-0067,POL-548823,Customer_0067,2025-04-16,2025-04-13,Theft,5973.53,4784.12,Approved,Priya Patel,False,0.19,West,Liability,1000,2025-05-24,38
+CLM-0068,POL-955232,Customer_0068,2025-08-14,2025-08-02,Fire Damage,200593.59,142311.06,Settled,Aisha Mohammed,False,0.3,Central,Property,5000,2025-08-31,17
+CLM-0069,POL-536450,Customer_0069,2025-02-17,2025-02-03,Medical Claim,62837.22,58103.54,Settled,Lisa Anderson,False,0.08,West,Property,1000,2025-04-20,62
+CLM-0070,POL-724322,Customer_0070,2025-11-18,2025-11-05,Liability,141391.42,0,Under Review,James Wilson,False,0.19,Central,Liability,2000,,13
+CLM-0071,POL-417430,Customer_0071,2024-08-11,2024-08-01,Fire Damage,226725.49,157680.92,Settled,Lisa Anderson,False,0.2,East,Auto,500,2024-09-19,39
+CLM-0072,POL-490488,Customer_0072,2025-03-13,2025-03-04,Auto Collision,5483.85,0,Pending,David Kim,False,0.22,East,Property,5000,,26
+CLM-0073,POL-677814,Customer_0073,2025-04-20,2025-04-17,Fire Damage,143788.82,136476.54,Approved,Priya Patel,False,0.2,North,Liability,2000,2025-07-02,73
+CLM-0074,POL-166992,Customer_0074,2025-05-02,2025-05-02,Fire Damage,387490.71,380633.8,Settled,David Kim,False,0.23,North,Property,2500,2025-07-01,60
+CLM-0075,POL-234278,Customer_0075,2025-03-05,2025-03-03,Property Damage,141844.48,0,Denied,David Kim,False,0.33,South,Life,0,2025-03-12,7
+CLM-0076,POL-818623,Customer_0076,2025-01-07,2025-01-03,Auto Collision,24174.43,23070.17,Approved,Aisha Mohammed,False,0.21,East,Health,1000,2025-03-25,77
+CLM-0077,POL-711419,Customer_0077,2025-04-21,2025-04-19,Liability,26161.81,25156.66,Settled,Sarah Johnson,False,0.12,Central,Liability,2000,2025-06-23,63
+CLM-0078,POL-432180,Customer_0078,2025-12-13,2025-12-10,Property Damage,82210.68,56359.73,Approved,Maria Garcia,False,0.38,Central,Life,0,2026-03-12,89
+CLM-0079,POL-861832,Customer_0079,2024-10-01,2024-09-28,Natural Disaster,401543.89,0,Pending,Thomas Brown,False,0.17,West,Property,2500,,22
+CLM-0080,POL-685194,Customer_0080,2025-12-08,2025-12-05,Natural Disaster,382897.07,0,Under Review,Lisa Anderson,False,0.19,East,Auto,1000,,8
+CLM-0081,POL-453597,Customer_0081,2024-08-27,2024-08-23,Auto Collision,63210.76,60045.82,Approved,Aisha Mohammed,False,0.03,West,Health,1000,2024-09-16,20
+CLM-0082,POL-746706,Customer_0082,2025-04-19,2025-04-11,Auto Collision,22400.61,16703.36,Settled,Lisa Anderson,False,0.02,South,Auto,1000,2025-06-21,63
+CLM-0083,POL-770784,Customer_0083,2025-03-09,2025-03-06,Fire Damage,298814.43,0,Pending,Priya Patel,False,0.01,Central,Health,1000,,23
+CLM-0084,POL-410829,Customer_0084,2024-09-09,2024-08-31,Natural Disaster,241204.54,0,Denied,Aisha Mohammed,False,0.2,West,Property,1000,2024-12-07,89
+CLM-0085,POL-499905,Customer_0085,2024-08-29,2024-08-15,Natural Disaster,21547.68,15240.33,Approved,Sarah Johnson,False,0.35,Central,Liability,2000,2024-10-10,42
+CLM-0086,POL-897584,Customer_0086,2025-03-06,2025-02-28,Natural Disaster,24099.82,15946.46,Settled,David Kim,True,0.69,East,Property,5000,2025-04-15,40
+CLM-0087,POL-343322,Customer_0087,2025-12-19,2025-12-15,Auto Collision,65167.18,0,Under Review,Priya Patel,False,0.32,West,Property,1000,,19
+CLM-0088,POL-961077,Customer_0088,2025-12-21,2025-12-15,Medical Claim,54075.1,45015.44,Approved,David Kim,False,0.38,West,Life,0,2026-01-19,29
+CLM-0089,POL-816089,Customer_0089,2025-05-25,2025-05-20,Fire Damage,125427.2,94846.72,Settled,Robert Taylor,False,0.1,Central,Auto,500,2025-08-06,73
+CLM-0090,POL-790213,Customer_0090,2025-08-29,2025-08-27,Theft,16047.96,15076.0,Approved,Thomas Brown,False,0.32,North,Property,1000,2025-09-22,24
+CLM-0091,POL-376644,Customer_0091,2025-11-23,2025-11-18,Theft,44207.33,0,Under Review,Maria Garcia,False,0.35,East,Liability,1000,,22
+CLM-0092,POL-207661,Customer_0092,2025-11-16,2025-11-08,Property Damage,165545.9,131512.26,Approved,Maria Garcia,False,0.4,Central,Property,1000,2025-11-22,6
+CLM-0093,POL-980123,Customer_0093,2025-07-28,2025-07-18,Liability,62316.62,54983.49,Settled,Maria Garcia,False,0.11,Central,Health,250,2025-09-13,47
+CLM-0094,POL-154869,Customer_0094,2025-09-21,2025-09-13,Auto Collision,32856.43,0,Denied,James Wilson,True,0.99,West,Life,0,2025-12-10,80
+CLM-0095,POL-596379,Customer_0095,2024-09-15,2024-09-13,Theft,24929.01,0,Denied,Priya Patel,False,0.34,East,Property,2500,2024-11-24,70
+CLM-0096,POL-316941,Customer_0096,2025-01-21,2025-01-15,Theft,43261.43,0,Pending,Michael Chen,False,0.3,East,Property,1000,,25
+CLM-0097,POL-890139,Customer_0097,2024-07-13,2024-07-02,Natural Disaster,376936.2,0,Under Review,Priya Patel,False,0.15,Central,Liability,2000,,30
+CLM-0098,POL-282503,Customer_0098,2024-10-06,2024-10-06,Medical Claim,102074.13,70484.35,Approved,James Wilson,False,0.16,North,Liability,2000,2024-10-15,9
+CLM-0099,POL-350316,Customer_0099,2025-12-24,2025-12-12,Auto Collision,43875.19,0,Denied,Maria Garcia,False,0.36,Central,Life,0,2026-02-17,55
+CLM-0100,POL-734155,Customer_0100,2025-11-13,2025-11-11,Theft,41850.52,0,Under Review,Aisha Mohammed,False,0.23,East,Health,250,,28
+CLM-0101,POL-409832,Customer_0101,2025-01-18,2025-01-05,Auto Collision,19849.95,0,Denied,Lisa Anderson,False,0.31,North,Property,2500,2025-04-06,78
+CLM-0102,POL-353828,Customer_0102,2025-10-03,2025-10-03,Theft,5351.28,4087.55,Settled,Aisha Mohammed,False,0.03,North,Property,1000,2025-10-21,18
+CLM-0103,POL-971088,Customer_0103,2025-09-20,2025-09-06,Natural Disaster,335331.79,299571.58,Approved,Priya Patel,False,0.12,North,Life,0,2025-10-26,36
+CLM-0104,POL-841377,Customer_0104,2024-11-16,2024-11-14,Natural Disaster,286228.71,0,Denied,Lisa Anderson,False,0.17,East,Auto,500,2025-01-26,71
+CLM-0105,POL-951755,Customer_0105,2024-12-14,2024-11-30,Theft,9955.82,9461.91,Settled,David Kim,False,0.04,West,Liability,1000,2025-02-08,56
+CLM-0106,POL-790985,Customer_0106,2025-08-29,2025-08-18,Liability,60400.91,0,Under Review,Thomas Brown,False,0.39,North,Life,0,,18
+CLM-0107,POL-297119,Customer_0107,2024-09-12,2024-09-11,Medical Claim,8716.56,0,Denied,Robert Taylor,True,0.75,West,Property,5000,2024-09-27,15
+CLM-0108,POL-876347,Customer_0108,2025-06-14,2025-05-31,Theft,40797.75,0,Under Review,Robert Taylor,False,0.12,South,Property,1000,,10
+CLM-0109,POL-521970,Customer_0109,2025-09-06,2025-08-24,Fire Damage,368431.98,0,Under Review,Maria Garcia,False,0.19,South,Health,500,,26
+CLM-0110,POL-357970,Customer_0110,2025-08-15,2025-08-05,Property Damage,158044.76,151937.64,Approved,James Wilson,False,0.25,West,Property,1000,2025-10-15,61
+CLM-0111,POL-638538,Customer_0111,2025-11-16,2025-11-15,Auto Collision,43329.21,0,Pending,David Kim,False,0.33,East,Life,0,,17
+CLM-0112,POL-824698,Customer_0112,2025-02-07,2025-01-25,Fire Damage,185833.88,0,Denied,Sarah Johnson,False,0.26,West,Life,0,2025-04-25,77
+CLM-0113,POL-286952,Customer_0113,2025-12-05,2025-11-27,Medical Claim,62533.99,0,Pending,Priya Patel,False,0.35,West,Liability,1000,,3
+CLM-0114,POL-262870,Customer_0114,2025-11-18,2025-11-12,Liability,48497.69,0,Denied,Priya Patel,False,0.37,South,Health,1000,2025-12-01,13
+CLM-0115,POL-825606,Customer_0115,2025-11-18,2025-11-15,Property Damage,89912.59,0,Under Review,Lisa Anderson,False,0.05,North,Auto,1000,,4
+CLM-0116,POL-395249,Customer_0116,2025-02-25,2025-02-11,Fire Damage,232013.98,227249.6,Settled,Sarah Johnson,True,0.69,North,Auto,1500,2025-05-10,74
+CLM-0117,POL-503948,Customer_0117,2025-08-10,2025-08-08,Liability,169012.66,0,Pending,James Wilson,False,0.02,West,Property,1000,,22
+CLM-0118,POL-961818,Customer_0118,2024-11-11,2024-11-03,Medical Claim,53044.57,0,Pending,Michael Chen,False,0.19,West,Property,2500,,9
+CLM-0119,POL-601677,Customer_0119,2025-12-16,2025-12-13,Natural Disaster,245166.56,0,Pending,Thomas Brown,False,0.19,South,Property,5000,,2
+CLM-0120,POL-774268,Customer_0120,2024-09-04,2024-08-24,Liability,85537.42,0,Denied,Aisha Mohammed,True,0.69,South,Liability,2000,2024-10-17,43
+CLM-0121,POL-456274,Customer_0121,2025-10-26,2025-10-12,Natural Disaster,116218.76,0,Under Review,Priya Patel,False,0.03,South,Life,0,,3
+CLM-0122,POL-215747,Customer_0122,2024-10-17,2024-10-06,Medical Claim,90954.94,58973.1,Settled,Robert Taylor,False,0.13,East,Life,0,2025-01-10,85
+CLM-0123,POL-807203,Customer_0123,2024-07-18,2024-07-18,Liability,50627.25,33937.25,Settled,Lisa Anderson,False,0.03,West,Auto,1500,2024-07-29,11
+CLM-0124,POL-871088,Customer_0124,2025-01-10,2024-12-31,Natural Disaster,170192.36,104501.82,Approved,Sarah Johnson,False,0.09,West,Life,0,2025-02-03,24
+CLM-0125,POL-945680,Customer_0125,2025-03-05,2025-02-20,Auto Collision,72576.84,0,Under Review,James Wilson,False,0.25,East,Life,0,,16
+CLM-0126,POL-502277,Customer_0126,2024-11-03,2024-10-26,Medical Claim,80104.26,0,Denied,Michael Chen,False,0.36,West,Property,5000,2025-01-30,88
+CLM-0127,POL-101946,Customer_0127,2025-03-27,2025-03-19,Natural Disaster,70212.47,0,Pending,Priya Patel,False,0.33,South,Liability,2000,,20
+CLM-0128,POL-627053,Customer_0128,2025-07-03,2025-06-19,Fire Damage,50461.81,0,Under Review,Maria Garcia,False,0.32,Central,Health,1000,,13
+CLM-0129,POL-247687,Customer_0129,2025-08-07,2025-08-01,Auto Collision,29598.21,0,Denied,Aisha Mohammed,False,0.31,Central,Life,0,2025-09-08,32
+CLM-0130,POL-953748,Customer_0130,2025-06-29,2025-06-26,Property Damage,231780.82,181826.98,Approved,Lisa Anderson,False,0.13,East,Health,1000,2025-07-14,15
+CLM-0131,POL-573656,Customer_0131,2025-06-04,2025-05-28,Liability,178252.06,0,Under Review,Priya Patel,False,0.01,Central,Liability,1000,,24
+CLM-0132,POL-832999,Customer_0132,2024-07-12,2024-07-05,Auto Collision,18442.62,12849.92,Approved,David Kim,False,0.04,West,Health,500,2024-08-25,44
+CLM-0133,POL-289924,Customer_0133,2025-10-01,2025-09-28,Auto Collision,74310.45,0,Denied,Aisha Mohammed,False,0.02,Central,Liability,2000,2025-12-20,80
+CLM-0134,POL-430069,Customer_0134,2024-07-31,2024-07-31,Fire Damage,259850.02,221107.22,Settled,Robert Taylor,False,0.13,South,Auto,1500,2024-09-17,48
+CLM-0135,POL-966171,Customer_0135,2025-02-14,2025-02-07,Theft,3122.42,2909.32,Settled,Michael Chen,False,0.12,Central,Property,5000,2025-02-28,14
+CLM-0136,POL-909168,Customer_0136,2024-11-01,2024-10-24,Theft,49294.55,33226.98,Settled,Priya Patel,False,0.12,South,Health,1000,2024-12-04,33
+CLM-0137,POL-674566,Customer_0137,2025-01-20,2025-01-19,Fire Damage,132175.86,0,Pending,Robert Taylor,False,0.1,North,Auto,500,,11
+CLM-0138,POL-241171,Customer_0138,2024-11-26,2024-11-25,Liability,28791.23,0,Under Review,James Wilson,False,0.01,North,Liability,1000,,1
+CLM-0139,POL-908400,Customer_0139,2024-10-16,2024-10-16,Medical Claim,113160.83,0,Under Review,Maria Garcia,True,0.97,East,Property,2500,,2
+CLM-0140,POL-388805,Customer_0140,2025-10-11,2025-10-06,Property Damage,224341.83,0,Under Review,Michael Chen,False,0.19,South,Health,500,,30
+CLM-0141,POL-549431,Customer_0141,2024-10-20,2024-10-19,Liability,159412.22,0,Under Review,Thomas Brown,False,0.36,North,Health,250,,3
+CLM-0142,POL-237110,Customer_0142,2025-04-09,2025-04-09,Property Damage,203460.28,0,Under Review,Aisha Mohammed,False,0.24,East,Health,1000,,1
+CLM-0143,POL-318176,Customer_0143,2024-10-26,2024-10-24,Property Damage,121651.87,92527.77,Settled,Lisa Anderson,False,0.22,East,Liability,2000,2025-01-18,84
+CLM-0144,POL-592852,Customer_0144,2025-06-26,2025-06-16,Theft,24169.08,15669.08,Approved,Robert Taylor,False,0.03,Central,Life,0,2025-08-18,53
+CLM-0145,POL-985373,Customer_0145,2025-07-08,2025-06-25,Theft,40367.02,0,Pending,Priya Patel,False,0.4,Central,Property,5000,,25
+CLM-0146,POL-623805,Customer_0146,2025-02-16,2025-02-12,Auto Collision,30603.69,0,Under Review,Robert Taylor,False,0.28,South,Auto,1000,,23
+CLM-0147,POL-425671,Customer_0147,2025-11-21,2025-11-08,Liability,112217.55,0,Pending,Maria Garcia,False,0.23,East,Property,5000,,7
+CLM-0148,POL-158335,Customer_0148,2024-09-17,2024-09-15,Fire Damage,100659.98,0,Denied,Thomas Brown,False,0.32,East,Health,250,2024-11-26,70
+CLM-0149,POL-606105,Customer_0149,2026-01-04,2025-12-23,Natural Disaster,388586.57,0,Denied,David Kim,False,0.36,Central,Liability,1000,2026-02-27,54
+CLM-0150,POL-293334,Customer_0150,2025-07-31,2025-07-18,Medical Claim,141560.32,0,Under Review,Priya Patel,False,0.31,North,Life,0,,13
+CLM-0151,POL-729526,Customer_0151,2025-10-30,2025-10-16,Fire Damage,119169.8,0,Pending,James Wilson,False,0.22,South,Health,500,,24
+CLM-0152,POL-212788,Customer_0152,2024-09-16,2024-09-07,Property Damage,186321.22,0,Under Review,Priya Patel,False,0.16,East,Life,0,,21
+CLM-0153,POL-637714,Customer_0153,2025-08-10,2025-08-10,Liability,20562.85,14816.75,Settled,Lisa Anderson,False,0.1,South,Property,5000,2025-10-22,73
+CLM-0154,POL-681623,Customer_0154,2025-12-13,2025-12-02,Liability,133632.22,97047.31,Settled,Maria Garcia,False,0.24,North,Property,2500,2026-01-02,20
+CLM-0155,POL-536214,Customer_0155,2024-07-18,2024-07-16,Property Damage,33737.79,0,Pending,James Wilson,False,0.38,North,Property,2500,,28
+CLM-0156,POL-659472,Customer_0156,2024-09-02,2024-08-24,Liability,94048.07,76377.81,Settled,Thomas Brown,False,0.02,West,Auto,500,2024-11-06,65
+CLM-0157,POL-701657,Customer_0157,2025-06-29,2025-06-18,Theft,24398.37,19608.2,Approved,Lisa Anderson,False,0.16,East,Health,1000,2025-09-06,69
+CLM-0158,POL-391647,Customer_0158,2024-08-30,2024-08-16,Property Damage,215702.69,0,Pending,Robert Taylor,False,0.29,North,Property,1000,,15
+CLM-0159,POL-686334,Customer_0159,2024-09-18,2024-09-07,Medical Claim,49264.59,0,Under Review,Thomas Brown,False,0.12,West,Auto,1500,,16
+CLM-0160,POL-348973,Customer_0160,2025-08-09,2025-07-30,Theft,34158.32,0,Denied,Robert Taylor,True,0.83,West,Property,2500,2025-09-06,28
+CLM-0161,POL-773982,Customer_0161,2024-10-01,2024-10-01,Fire Damage,26103.13,0,Denied,Michael Chen,False,0.31,West,Liability,1000,2024-11-17,47
+CLM-0162,POL-171167,Customer_0162,2025-08-24,2025-08-11,Auto Collision,32045.43,0,Denied,Robert Taylor,False,0.17,Central,Property,1000,2025-10-22,59
+CLM-0163,POL-816784,Customer_0163,2025-09-25,2025-09-18,Liability,96350.23,84967.43,Settled,James Wilson,False,0.1,North,Liability,1000,2025-12-17,83
+CLM-0164,POL-387742,Customer_0164,2024-07-10,2024-07-09,Medical Claim,145830.46,0,Denied,Lisa Anderson,False,0.09,South,Property,2500,2024-08-13,34
+CLM-0165,POL-235014,Customer_0165,2025-12-11,2025-12-01,Liability,9730.62,0,Denied,Priya Patel,False,0.03,Central,Property,1000,2026-01-29,49
+CLM-0166,POL-581764,Customer_0166,2025-04-20,2025-04-12,Fire Damage,322037.37,0,Pending,David Kim,False,0.28,South,Auto,1000,,21
+CLM-0167,POL-529898,Customer_0167,2024-07-26,2024-07-24,Natural Disaster,48191.33,0,Denied,Robert Taylor,False,0.09,East,Auto,500,2024-08-06,11
+CLM-0168,POL-179539,Customer_0168,2025-07-29,2025-07-29,Liability,132925.5,91929.66,Approved,Robert Taylor,False,0.34,West,Property,1000,2025-10-08,71
+CLM-0169,POL-958884,Customer_0169,2025-07-12,2025-07-01,Property Damage,164763.96,0,Pending,Thomas Brown,False,0.18,North,Health,1000,,29
+CLM-0170,POL-242152,Customer_0170,2025-08-19,2025-08-10,Auto Collision,42776.72,0,Under Review,Michael Chen,False,0.21,Central,Auto,500,,21
+CLM-0171,POL-452863,Customer_0171,2024-12-09,2024-12-03,Property Damage,107002.11,0,Denied,Aisha Mohammed,False,0.36,East,Auto,1500,2025-02-26,79
+CLM-0172,POL-190839,Customer_0172,2025-12-23,2025-12-12,Medical Claim,116115.71,0,Pending,Priya Patel,False,0.37,West,Health,250,,30
+CLM-0173,POL-861779,Customer_0173,2024-08-25,2024-08-15,Medical Claim,13262.34,0,Denied,Priya Patel,False,0.33,North,Health,500,2024-11-12,79
+CLM-0174,POL-587146,Customer_0174,2025-02-08,2025-01-29,Property Damage,97483.9,80989.45,Approved,Priya Patel,False,0.19,West,Life,0,2025-03-18,38
+CLM-0175,POL-184280,Customer_0175,2025-04-23,2025-04-20,Property Damage,88539.56,62643.36,Approved,Sarah Johnson,False,0.33,East,Property,5000,2025-06-01,39
+CLM-0176,POL-361269,Customer_0176,2025-05-06,2025-05-04,Auto Collision,17032.25,0,Under Review,James Wilson,False,0.15,Central,Health,1000,,19
+CLM-0177,POL-750922,Customer_0177,2025-06-22,2025-06-14,Auto Collision,33876.64,0,Under Review,Priya Patel,True,0.92,East,Auto,1000,,12
+CLM-0178,POL-125288,Customer_0178,2025-03-07,2025-02-24,Property Damage,106519.99,73226.26,Settled,Thomas Brown,False,0.16,West,Health,500,2025-04-03,27
+CLM-0179,POL-385465,Customer_0179,2025-03-15,2025-03-09,Auto Collision,61983.63,0,Pending,Michael Chen,False,0.24,West,Health,1000,,2
+CLM-0180,POL-174418,Customer_0180,2024-10-22,2024-10-19,Medical Claim,72509.35,56411.27,Approved,Robert Taylor,False,0.05,East,Auto,1500,2024-12-17,56
+CLM-0181,POL-130336,Customer_0181,2025-06-11,2025-06-06,Theft,31827.83,0,Pending,Michael Chen,False,0.25,South,Life,0,,22
+CLM-0182,POL-357821,Customer_0182,2024-09-17,2024-09-04,Property Damage,243060.1,0,Pending,Michael Chen,True,0.76,West,Auto,500,,18
+CLM-0183,POL-633213,Customer_0183,2025-03-05,2025-03-03,Liability,76602.22,0,Denied,James Wilson,False,0.22,Central,Property,1000,2025-04-12,38
+CLM-0184,POL-830112,Customer_0184,2025-11-08,2025-11-08,Fire Damage,360568.44,0,Pending,Aisha Mohammed,False,0.19,Central,Liability,2000,,28
+CLM-0185,POL-608556,Customer_0185,2025-08-27,2025-08-13,Fire Damage,328364.71,294999.53,Settled,Sarah Johnson,False,0.1,East,Auto,1000,2025-09-29,33
+CLM-0186,POL-236305,Customer_0186,2025-02-20,2025-02-11,Property Damage,233131.02,0,Pending,Maria Garcia,False,0.39,South,Life,0,,30
+CLM-0187,POL-346028,Customer_0187,2024-11-23,2024-11-20,Natural Disaster,310896.54,0,Denied,Michael Chen,True,0.65,West,Health,1000,2024-12-18,25
+CLM-0188,POL-843861,Customer_0188,2024-12-17,2024-12-13,Fire Damage,309874.38,246298.52,Settled,James Wilson,False,0.01,Central,Auto,1000,2025-03-17,90
+CLM-0189,POL-902363,Customer_0189,2024-07-25,2024-07-23,Fire Damage,104086.26,0,Pending,Maria Garcia,False,0.29,West,Health,500,,19
+CLM-0190,POL-176691,Customer_0190,2025-04-15,2025-04-14,Property Damage,206004.98,0,Under Review,James Wilson,False,0.16,North,Auto,500,,21
+CLM-0191,POL-838605,Customer_0191,2025-01-03,2024-12-26,Property Damage,25396.86,0,Denied,James Wilson,True,0.88,West,Liability,1000,2025-03-24,80
+CLM-0192,POL-545216,Customer_0192,2025-06-20,2025-06-16,Fire Damage,209620.02,166061.37,Settled,Lisa Anderson,False,0.35,North,Liability,2000,2025-07-26,36
+CLM-0193,POL-428962,Customer_0193,2025-07-02,2025-06-21,Natural Disaster,54896.31,38461.51,Approved,Lisa Anderson,False,0.19,North,Property,1000,2025-07-27,25
+CLM-0194,POL-466180,Customer_0194,2025-07-22,2025-07-15,Liability,143172.59,129015.81,Settled,Robert Taylor,False,0.29,East,Auto,1000,2025-10-17,87
+CLM-0195,POL-480080,Customer_0195,2025-12-03,2025-11-19,Property Damage,175668.41,141067.63,Approved,David Kim,False,0.04,South,Life,0,2026-02-21,80
+CLM-0196,POL-119817,Customer_0196,2025-07-17,2025-07-16,Theft,40684.58,0,Denied,Lisa Anderson,False,0.13,North,Auto,500,2025-09-10,55
+CLM-0197,POL-916725,Customer_0197,2024-11-02,2024-10-30,Fire Damage,182898.82,181385.53,Approved,Aisha Mohammed,False,0.34,South,Life,0,2024-11-23,21
+CLM-0198,POL-414394,Customer_0198,2024-08-30,2024-08-30,Medical Claim,141701.23,0,Pending,Aisha Mohammed,False,0.31,South,Liability,1000,,15
+CLM-0199,POL-245120,Customer_0199,2024-10-20,2024-10-15,Liability,131656.42,0,Pending,Sarah Johnson,False,0.3,North,Property,1000,,24
+CLM-0200,POL-981291,Customer_0200,2025-06-09,2025-06-09,Theft,26166.1,23817.25,Settled,Thomas Brown,False,0.29,Central,Liability,1000,2025-06-17,8
+CLM-0201,POL-986782,Customer_0201,2025-12-26,2025-12-21,Theft,16008.47,0,Pending,James Wilson,False,0.13,North,Life,0,,22
+CLM-0202,POL-550330,Customer_0202,2025-08-29,2025-08-23,Fire Damage,151187.41,150431.55,Approved,James Wilson,False,0.06,Central,Life,0,2025-09-30,32
+CLM-0203,POL-963088,Customer_0203,2024-11-10,2024-11-06,Theft,40677.67,0,Under Review,Robert Taylor,False,0.33,North,Life,0,,5
+CLM-0204,POL-628772,Customer_0204,2024-09-08,2024-08-31,Theft,9642.65,6473.36,Settled,Maria Garcia,False,0.37,East,Auto,1500,2024-10-08,30
+CLM-0205,POL-894010,Customer_0205,2025-10-18,2025-10-13,Auto Collision,47373.71,31038.37,Approved,Lisa Anderson,False,0.27,East,Life,0,2026-01-07,81
+CLM-0206,POL-212567,Customer_0206,2025-09-10,2025-08-30,Fire Damage,278394.52,203187.43,Settled,Maria Garcia,False,0.17,West,Property,5000,2025-11-11,62
+CLM-0207,POL-916732,Customer_0207,2025-04-13,2025-04-04,Fire Damage,346751.61,0,Pending,Lisa Anderson,False,0.22,Central,Health,1000,,1
+CLM-0208,POL-773061,Customer_0208,2025-08-07,2025-08-01,Property Damage,142016.74,138270.28,Approved,Thomas Brown,False,0.22,Central,Auto,1000,2025-09-18,42
+CLM-0209,POL-740511,Customer_0209,2025-10-09,2025-09-29,Theft,13102.17,11585.11,Settled,Priya Patel,False,0.39,Central,Liability,2000,2025-12-16,68
+CLM-0210,POL-376589,Customer_0210,2024-07-27,2024-07-17,Medical Claim,51119.99,0,Denied,Robert Taylor,False,0.3,Central,Property,2500,2024-10-14,79
+CLM-0211,POL-782658,Customer_0211,2025-08-01,2025-07-26,Fire Damage,348616.94,217919.13,Approved,Lisa Anderson,False,0.09,South,Property,2500,2025-09-26,56
+CLM-0212,POL-121674,Customer_0212,2025-07-27,2025-07-19,Medical Claim,1029.92,0,Denied,Michael Chen,False,0.36,West,Health,500,2025-09-25,60
+CLM-0213,POL-293624,Customer_0213,2024-08-31,2024-08-26,Liability,124075.51,0,Under Review,Thomas Brown,False,0.12,Central,Auto,500,,15
+CLM-0214,POL-185117,Customer_0214,2025-11-17,2025-11-13,Theft,23403.11,18091.12,Approved,Aisha Mohammed,False,0.38,East,Life,0,2026-02-05,80
+CLM-0215,POL-346288,Customer_0215,2025-05-27,2025-05-21,Auto Collision,40224.09,0,Pending,David Kim,False,0.06,East,Liability,2000,,28
+CLM-0216,POL-291976,Customer_0216,2024-09-15,2024-09-13,Natural Disaster,337904.94,0,Denied,Aisha Mohammed,False,0.12,West,Property,1000,2024-10-12,27
+CLM-0217,POL-914017,Customer_0217,2024-08-22,2024-08-10,Natural Disaster,459038.51,0,Pending,Michael Chen,False,0.03,North,Life,0,,12
+CLM-0218,POL-773246,Customer_0218,2025-02-02,2025-02-01,Theft,11360.54,7086.84,Settled,James Wilson,False,0.32,Central,Liability,2000,2025-05-03,90
+CLM-0219,POL-774261,Customer_0219,2025-09-17,2025-09-17,Property Damage,69493.99,0,Pending,Maria Garcia,False,0.1,North,Liability,2000,,6
+CLM-0220,POL-672937,Customer_0220,2025-05-29,2025-05-17,Natural Disaster,187519.98,0,Under Review,James Wilson,False,0.08,West,Life,0,,11
+CLM-0221,POL-681401,Customer_0221,2025-09-16,2025-09-11,Natural Disaster,237467.36,0,Denied,Priya Patel,False,0.27,West,Health,250,2025-10-30,44
+CLM-0222,POL-563835,Customer_0222,2025-05-04,2025-04-26,Property Damage,59039.99,0,Under Review,Sarah Johnson,False,0.15,Central,Property,1000,,27
+CLM-0223,POL-661906,Customer_0223,2025-08-13,2025-08-06,Fire Damage,394266.79,0,Pending,Sarah Johnson,False,0.27,East,Life,0,,25
+CLM-0224,POL-968061,Customer_0224,2024-09-18,2024-09-10,Liability,112064.54,0,Denied,Sarah Johnson,False,0.32,North,Life,0,2024-11-27,70
+CLM-0225,POL-945993,Customer_0225,2025-01-19,2025-01-19,Theft,28177.71,17320.05,Approved,Aisha Mohammed,False,0.02,East,Auto,1500,2025-02-07,19
+CLM-0226,POL-524662,Customer_0226,2025-05-22,2025-05-22,Fire Damage,321235.4,0,Denied,James Wilson,False,0.09,West,Auto,1000,2025-07-12,51
+CLM-0227,POL-511001,Customer_0227,2024-08-10,2024-08-10,Auto Collision,26626.62,0,Denied,Sarah Johnson,False,0.05,Central,Health,250,2024-09-29,50
+CLM-0228,POL-771809,Customer_0228,2025-01-05,2024-12-31,Fire Damage,22456.28,0,Under Review,Aisha Mohammed,False,0.11,North,Liability,2000,,28
+CLM-0229,POL-540983,Customer_0229,2025-11-18,2025-11-08,Medical Claim,79264.0,0,Under Review,Michael Chen,False,0.17,East,Property,2500,,27
+CLM-0230,POL-276694,Customer_0230,2025-11-06,2025-11-01,Auto Collision,73822.25,0,Under Review,Lisa Anderson,False,0.39,West,Health,1000,,27
+CLM-0231,POL-168950,Customer_0231,2025-01-23,2025-01-13,Liability,147589.98,0,Under Review,Robert Taylor,False,0.21,Central,Property,2500,,17
+CLM-0232,POL-457853,Customer_0232,2024-12-02,2024-11-25,Medical Claim,4385.45,0,Denied,Sarah Johnson,True,0.94,West,Auto,1000,2025-02-03,63
+CLM-0233,POL-552851,Customer_0233,2024-11-14,2024-11-05,Liability,67407.42,0,Under Review,Robert Taylor,False,0.18,East,Liability,2000,,18
+CLM-0234,POL-292891,Customer_0234,2025-07-18,2025-07-17,Property Damage,5970.06,0,Under Review,David Kim,False,0.15,East,Health,500,,1
+CLM-0235,POL-626296,Customer_0235,2024-10-14,2024-09-30,Property Damage,121201.11,0,Denied,James Wilson,False,0.24,South,Auto,1500,2024-12-29,76
+CLM-0236,POL-732784,Customer_0236,2025-05-04,2025-04-27,Medical Claim,54394.61,42599.1,Settled,Lisa Anderson,True,0.97,North,Life,0,2025-05-17,13
+CLM-0237,POL-848400,Customer_0237,2025-08-30,2025-08-25,Fire Damage,390114.26,0,Denied,Priya Patel,False,0.4,North,Life,0,2025-09-14,15
+CLM-0238,POL-591204,Customer_0238,2025-05-21,2025-05-14,Liability,112020.13,92071.72,Settled,James Wilson,False,0.27,North,Health,1000,2025-07-24,64
+CLM-0239,POL-870171,Customer_0239,2024-07-25,2024-07-21,Medical Claim,142799.05,131710.9,Settled,Priya Patel,False,0.17,North,Life,0,2024-10-15,82
+CLM-0240,POL-791686,Customer_0240,2024-08-20,2024-08-10,Theft,7099.51,0,Denied,Thomas Brown,False,0.27,West,Health,1000,2024-10-18,59
+CLM-0241,POL-687735,Customer_0241,2024-07-24,2024-07-22,Fire Damage,383817.95,326516.86,Settled,Priya Patel,False,0.23,Central,Health,1000,2024-07-28,4
+CLM-0242,POL-161713,Customer_0242,2024-08-16,2024-08-03,Medical Claim,45110.03,36133.63,Settled,Thomas Brown,True,0.76,East,Auto,500,2024-09-04,19
+CLM-0243,POL-295156,Customer_0243,2025-04-21,2025-04-15,Natural Disaster,133631.66,101256.6,Approved,Maria Garcia,False,0.37,Central,Life,0,2025-07-13,83
+CLM-0244,POL-899562,Customer_0244,2025-11-17,2025-11-16,Medical Claim,61479.57,58419.88,Settled,Priya Patel,False,0.16,North,Auto,1500,2025-12-04,17
+CLM-0245,POL-139448,Customer_0245,2024-07-31,2024-07-26,Medical Claim,92850.1,74795.69,Settled,Thomas Brown,False,0.16,North,Property,1000,2024-08-16,16
+CLM-0246,POL-822303,Customer_0246,2025-04-22,2025-04-15,Fire Damage,211294.5,179709.4,Approved,David Kim,False,0.2,West,Life,0,2025-06-26,65
+CLM-0247,POL-729245,Customer_0247,2025-04-17,2025-04-05,Liability,6008.53,3663.46,Settled,Lisa Anderson,False,0.06,South,Auto,1500,2025-04-24,7
+CLM-0248,POL-672651,Customer_0248,2025-06-26,2025-06-12,Theft,13100.62,0,Denied,Lisa Anderson,False,0.28,Central,Auto,1500,2025-09-19,85
+CLM-0249,POL-977659,Customer_0249,2025-11-08,2025-10-28,Liability,127938.78,104693.14,Settled,Thomas Brown,False,0.09,Central,Auto,500,2026-01-24,77
+CLM-0250,POL-872057,Customer_0250,2024-12-08,2024-11-26,Medical Claim,139922.92,0,Denied,Sarah Johnson,False,0.37,South,Health,500,2025-02-02,56
+CLM-0251,POL-614558,Customer_0251,2025-11-09,2025-11-02,Auto Collision,32001.37,0,Pending,Michael Chen,False,0.33,South,Liability,1000,,28
+CLM-0252,POL-420308,Customer_0252,2024-12-28,2024-12-28,Theft,35986.73,29776.85,Settled,Robert Taylor,False,0.24,South,Auto,1000,2025-02-14,48
+CLM-0253,POL-367168,Customer_0253,2025-04-27,2025-04-15,Liability,134868.92,0,Pending,Lisa Anderson,False,0.1,West,Health,250,,10
+CLM-0254,POL-104487,Customer_0254,2024-09-27,2024-09-13,Medical Claim,94986.56,93862.4,Approved,Lisa Anderson,False,0.33,East,Liability,1000,2024-10-29,32
+CLM-0255,POL-844634,Customer_0255,2025-12-26,2025-12-21,Liability,169509.92,0,Under Review,Lisa Anderson,False,0.12,West,Auto,500,,25
+CLM-0256,POL-387367,Customer_0256,2025-02-04,2025-01-27,Liability,39785.84,0,Pending,Maria Garcia,False,0.23,Central,Property,2500,,1
+CLM-0257,POL-639718,Customer_0257,2025-07-17,2025-07-08,Liability,179404.11,163238.69,Settled,Michael Chen,False,0.25,South,Auto,1500,2025-07-26,9
+CLM-0258,POL-698825,Customer_0258,2025-07-05,2025-06-30,Auto Collision,62090.62,0,Pending,Priya Patel,False,0.18,West,Health,1000,,12
+CLM-0259,POL-679668,Customer_0259,2025-08-23,2025-08-13,Fire Damage,265873.82,260506.71,Settled,Maria Garcia,False,0.06,West,Liability,1000,2025-10-22,60
+CLM-0260,POL-330400,Customer_0260,2025-08-28,2025-08-21,Property Damage,53480.64,53194.34,Settled,Thomas Brown,False,0.22,North,Life,0,2025-11-20,84
+CLM-0261,POL-967937,Customer_0261,2024-08-05,2024-08-02,Liability,189615.0,0,Pending,Michael Chen,False,0.19,South,Auto,1000,,19
+CLM-0262,POL-403296,Customer_0262,2024-11-18,2024-11-15,Theft,12405.52,10760.82,Approved,Maria Garcia,False,0.35,Central,Life,0,2024-11-27,9
+CLM-0263,POL-835081,Customer_0263,2025-01-12,2025-01-03,Natural Disaster,94877.64,0,Pending,Priya Patel,False,0.13,West,Health,250,,7
+CLM-0264,POL-474885,Customer_0264,2025-09-28,2025-09-14,Natural Disaster,112269.28,0,Pending,Michael Chen,False,0.24,South,Health,1000,,28
+CLM-0265,POL-881429,Customer_0265,2025-12-09,2025-12-05,Fire Damage,179101.66,108876.46,Settled,Maria Garcia,False,0.27,East,Liability,2000,2026-02-06,59
+CLM-0266,POL-279205,Customer_0266,2025-01-10,2025-01-08,Theft,14121.63,0,Pending,Aisha Mohammed,False,0.18,East,Health,1000,,6
+CLM-0267,POL-526797,Customer_0267,2024-09-07,2024-09-03,Auto Collision,16856.83,0,Denied,Sarah Johnson,False,0.32,South,Property,5000,2024-10-13,36
+CLM-0268,POL-305701,Customer_0268,2024-09-11,2024-09-08,Liability,188808.87,0,Under Review,Priya Patel,False,0.3,East,Property,2500,,28
+CLM-0269,POL-199074,Customer_0269,2025-04-01,2025-03-28,Liability,194259.55,128565.45,Settled,Priya Patel,False,0.14,North,Life,0,2025-05-13,42
+CLM-0270,POL-448712,Customer_0270,2024-12-06,2024-11-26,Theft,48578.39,0,Under Review,Priya Patel,False,0.13,North,Property,2500,,28
+CLM-0271,POL-707090,Customer_0271,2024-12-25,2024-12-15,Theft,42056.82,0,Denied,Lisa Anderson,False,0.39,West,Auto,500,2025-02-26,63
+CLM-0272,POL-213053,Customer_0272,2025-01-25,2025-01-18,Auto Collision,19098.91,0,Under Review,James Wilson,True,0.86,South,Auto,500,,5
+CLM-0273,POL-126176,Customer_0273,2025-09-04,2025-08-24,Theft,29621.95,0,Under Review,Michael Chen,False,0.11,East,Auto,500,,17
+CLM-0274,POL-331686,Customer_0274,2024-08-09,2024-07-28,Fire Damage,328342.84,226632.58,Approved,James Wilson,False,0.38,North,Health,500,2024-11-01,84
+CLM-0275,POL-370858,Customer_0275,2025-10-17,2025-10-17,Liability,53303.02,0,Denied,Lisa Anderson,False,0.37,West,Auto,1000,2025-11-22,36
+CLM-0276,POL-528743,Customer_0276,2024-08-25,2024-08-18,Theft,41744.08,0,Pending,Priya Patel,False,0.29,West,Property,2500,,28
+CLM-0277,POL-941058,Customer_0277,2025-01-13,2024-12-30,Auto Collision,31195.64,0,Pending,Thomas Brown,False,0.28,Central,Liability,2000,,30
+CLM-0278,POL-603074,Customer_0278,2025-10-08,2025-09-30,Liability,67830.98,0,Pending,Priya Patel,False,0.1,North,Life,0,,25
+CLM-0279,POL-576081,Customer_0279,2025-04-15,2025-04-09,Property Damage,88574.32,78719.81,Settled,James Wilson,False,0.27,East,Liability,2000,2025-06-11,57
+CLM-0280,POL-974512,Customer_0280,2025-09-05,2025-09-03,Auto Collision,74382.66,0,Under Review,Aisha Mohammed,False,0.26,South,Health,250,,30
+CLM-0281,POL-610865,Customer_0281,2024-10-25,2024-10-23,Natural Disaster,481444.07,0,Pending,Sarah Johnson,False,0.17,East,Auto,1000,,7
+CLM-0282,POL-472255,Customer_0282,2024-12-31,2024-12-20,Fire Damage,178627.49,0,Pending,Priya Patel,False,0.09,West,Auto,1000,,29
+CLM-0283,POL-216598,Customer_0283,2024-11-15,2024-11-06,Auto Collision,69634.57,0,Under Review,Priya Patel,False,0.02,North,Property,1000,,3
+CLM-0284,POL-988921,Customer_0284,2024-10-22,2024-10-15,Medical Claim,11796.65,10104.17,Settled,Sarah Johnson,False,0.04,North,Life,0,2024-11-08,17
+CLM-0285,POL-158290,Customer_0285,2024-09-12,2024-08-30,Natural Disaster,82163.81,0,Denied,Sarah Johnson,False,0.06,West,Health,250,2024-10-09,27
+CLM-0286,POL-978091,Customer_0286,2025-12-09,2025-11-27,Medical Claim,112372.01,95640.47,Approved,Maria Garcia,False,0.22,West,Life,0,2026-01-21,43
+CLM-0287,POL-627042,Customer_0287,2025-11-04,2025-10-31,Natural Disaster,144442.95,138334.31,Settled,Robert Taylor,True,0.68,East,Property,2500,2025-12-01,27
+CLM-0288,POL-356905,Customer_0288,2024-09-26,2024-09-12,Auto Collision,26312.18,21186.46,Approved,Aisha Mohammed,False,0.04,West,Liability,1000,2024-11-22,57
+CLM-0289,POL-539525,Customer_0289,2025-06-07,2025-05-25,Property Damage,119600.08,117913.25,Settled,Sarah Johnson,False,0.33,South,Auto,1500,2025-08-27,81
+CLM-0290,POL-311569,Customer_0290,2025-03-20,2025-03-12,Natural Disaster,202429.89,0,Pending,Aisha Mohammed,True,0.67,Central,Life,0,,20
+CLM-0291,POL-350509,Customer_0291,2025-06-30,2025-06-25,Property Damage,136737.05,0,Under Review,Lisa Anderson,False,0.14,West,Auto,1000,,26
+CLM-0292,POL-867402,Customer_0292,2025-03-18,2025-03-10,Fire Damage,153488.74,0,Denied,Sarah Johnson,False,0.31,West,Life,0,2025-05-14,57
+CLM-0293,POL-616646,Customer_0293,2024-11-26,2024-11-26,Fire Damage,350674.98,316657.88,Settled,David Kim,False,0.34,West,Liability,1000,2025-02-19,85
+CLM-0294,POL-190256,Customer_0294,2024-07-19,2024-07-07,Liability,110525.85,0,Denied,Robert Taylor,False,0.14,Central,Property,1000,2024-09-14,57
+CLM-0295,POL-946127,Customer_0295,2025-01-30,2025-01-23,Fire Damage,212616.12,158230.12,Approved,Sarah Johnson,False,0.1,Central,Health,500,2025-02-14,15
+CLM-0296,POL-438367,Customer_0296,2024-10-27,2024-10-21,Medical Claim,124709.49,0,Denied,James Wilson,False,0.38,West,Life,0,2024-12-19,53
+CLM-0297,POL-960288,Customer_0297,2024-12-05,2024-11-22,Fire Damage,207590.8,186561.36,Approved,Michael Chen,False,0.21,South,Life,0,2025-02-09,66
+CLM-0298,POL-948514,Customer_0298,2025-08-23,2025-08-14,Auto Collision,43355.94,29108.05,Approved,Priya Patel,False,0.23,Central,Liability,2000,2025-10-23,61
+CLM-0299,POL-192803,Customer_0299,2025-05-10,2025-05-01,Property Damage,68760.79,0,Pending,David Kim,False,0.39,North,Auto,500,,27
+CLM-0300,POL-912645,Customer_0300,2024-11-04,2024-11-01,Natural Disaster,246479.67,222170.19,Approved,Robert Taylor,False,0.26,North,Auto,1500,2024-12-17,43
+CLM-0301,POL-835387,Customer_0301,2025-01-16,2025-01-09,Fire Damage,50394.69,0,Pending,Priya Patel,False,0.08,South,Life,0,,6
+CLM-0302,POL-341244,Customer_0302,2025-07-27,2025-07-21,Auto Collision,66464.15,0,Pending,Priya Patel,False,0.18,East,Liability,2000,,26
+CLM-0303,POL-458645,Customer_0303,2025-04-18,2025-04-18,Property Damage,95098.61,0,Denied,Priya Patel,False,0.12,West,Auto,1500,2025-07-15,88
+CLM-0304,POL-545865,Customer_0304,2025-01-22,2025-01-13,Natural Disaster,269846.43,0,Under Review,Aisha Mohammed,False,0.05,North,Liability,1000,,5
+CLM-0305,POL-937683,Customer_0305,2025-07-03,2025-06-24,Theft,37127.75,0,Denied,Sarah Johnson,True,0.96,East,Life,0,2025-08-29,57
+CLM-0306,POL-118826,Customer_0306,2025-06-04,2025-05-23,Property Damage,212520.32,135086.06,Settled,Aisha Mohammed,False,0.08,South,Property,2500,2025-06-20,16
+CLM-0307,POL-596482,Customer_0307,2025-09-01,2025-08-24,Theft,14039.53,0,Pending,Maria Garcia,False,0.01,East,Life,0,,5
+CLM-0308,POL-298812,Customer_0308,2025-07-19,2025-07-07,Property Damage,244192.39,0,Under Review,Maria Garcia,False,0.1,West,Health,500,,25
+CLM-0309,POL-794048,Customer_0309,2025-06-26,2025-06-21,Liability,125761.28,0,Under Review,Maria Garcia,False,0.12,East,Health,500,,9
+CLM-0310,POL-171561,Customer_0310,2025-04-20,2025-04-18,Liability,120067.35,0,Denied,Michael Chen,False,0.29,North,Health,250,2025-05-07,17
+CLM-0311,POL-616825,Customer_0311,2024-10-09,2024-10-08,Theft,20727.74,13303.1,Settled,David Kim,False,0.39,North,Liability,2000,2024-11-07,29
+CLM-0312,POL-541764,Customer_0312,2025-02-08,2025-02-05,Auto Collision,9720.32,9640.32,Approved,Robert Taylor,False,0.12,North,Property,5000,2025-03-19,39
+CLM-0313,POL-614251,Customer_0313,2024-12-11,2024-12-10,Natural Disaster,82362.73,69457.98,Approved,Thomas Brown,False,0.21,West,Health,250,2025-02-28,79
+CLM-0314,POL-525895,Customer_0314,2024-08-19,2024-08-12,Fire Damage,252277.77,204675.9,Settled,Maria Garcia,False,0.18,East,Life,0,2024-11-10,83
+CLM-0315,POL-437085,Customer_0315,2025-01-10,2025-01-05,Liability,57660.66,0,Denied,Sarah Johnson,False,0.27,North,Property,1000,2025-02-26,47
+CLM-0316,POL-530975,Customer_0316,2025-03-06,2025-03-03,Theft,5674.83,3733.04,Approved,Aisha Mohammed,False,0.33,East,Property,1000,2025-03-29,23
+CLM-0317,POL-134855,Customer_0317,2024-10-12,2024-10-04,Theft,15474.69,0,Pending,Sarah Johnson,False,0.05,Central,Life,0,,7
+CLM-0318,POL-577994,Customer_0318,2025-02-26,2025-02-22,Property Damage,139140.35,0,Denied,Priya Patel,False,0.31,North,Property,1000,2025-04-11,44
+CLM-0319,POL-498974,Customer_0319,2024-11-22,2024-11-11,Fire Damage,359196.11,348661.36,Settled,Thomas Brown,False,0.38,West,Life,0,2025-01-10,49
+CLM-0320,POL-491127,Customer_0320,2025-12-28,2025-12-20,Natural Disaster,330199.69,0,Pending,Thomas Brown,False,0.37,East,Property,5000,,15
+CLM-0321,POL-360740,Customer_0321,2025-01-04,2024-12-22,Auto Collision,6975.3,0,Under Review,David Kim,False,0.07,Central,Property,5000,,24
+CLM-0322,POL-953227,Customer_0322,2024-07-04,2024-07-03,Theft,17390.3,0,Denied,Sarah Johnson,False,0.28,North,Auto,500,2024-07-30,26
+CLM-0323,POL-116021,Customer_0323,2025-04-30,2025-04-16,Liability,42721.72,0,Pending,Robert Taylor,True,0.91,South,Health,500,,1
+CLM-0324,POL-571542,Customer_0324,2024-09-16,2024-09-09,Liability,79824.78,0,Pending,Thomas Brown,False,0.05,North,Property,2500,,13
+CLM-0325,POL-703000,Customer_0325,2024-08-13,2024-08-05,Liability,197839.52,0,Under Review,Sarah Johnson,False,0.33,West,Auto,500,,22
+CLM-0326,POL-880229,Customer_0326,2025-11-10,2025-11-01,Auto Collision,36746.14,30821.01,Approved,Lisa Anderson,False,0.05,North,Property,2500,2025-11-25,15
+CLM-0327,POL-443811,Customer_0327,2025-07-23,2025-07-11,Medical Claim,2646.45,1808.29,Approved,Sarah Johnson,False,0.15,South,Liability,2000,2025-08-15,23
+CLM-0328,POL-603831,Customer_0328,2024-11-15,2024-11-05,Fire Damage,122556.86,0,Pending,Sarah Johnson,False,0.38,East,Liability,1000,,1
+CLM-0329,POL-717077,Customer_0329,2025-05-24,2025-05-15,Theft,48956.97,35582.64,Approved,Sarah Johnson,False,0.3,West,Liability,1000,2025-07-16,53
+CLM-0330,POL-354803,Customer_0330,2024-11-09,2024-10-29,Fire Damage,219121.0,193891.96,Approved,David Kim,False,0.38,East,Property,2500,2024-12-20,41
+CLM-0331,POL-481390,Customer_0331,2024-08-05,2024-08-04,Liability,124441.61,0,Denied,Sarah Johnson,False,0.19,North,Property,2500,2024-10-28,84
+CLM-0332,POL-529745,Customer_0332,2025-06-07,2025-06-05,Liability,175217.0,0,Denied,Aisha Mohammed,False,0.35,Central,Property,5000,2025-07-14,37
+CLM-0333,POL-281131,Customer_0333,2025-03-02,2025-02-25,Property Damage,48943.86,0,Under Review,Priya Patel,False,0.27,West,Property,1000,,23
+CLM-0334,POL-159238,Customer_0334,2025-08-26,2025-08-19,Medical Claim,64141.96,43144.96,Approved,James Wilson,False,0.25,South,Liability,1000,2025-11-14,80
+CLM-0335,POL-995718,Customer_0335,2025-03-12,2025-03-04,Auto Collision,37002.63,27227.18,Approved,Priya Patel,True,0.75,South,Auto,1500,2025-04-19,38
+CLM-0336,POL-729908,Customer_0336,2024-07-28,2024-07-24,Liability,184783.34,0,Denied,Robert Taylor,False,0.14,West,Life,0,2024-08-12,15
+CLM-0337,POL-759380,Customer_0337,2024-08-04,2024-08-01,Natural Disaster,458540.91,0,Pending,Michael Chen,False,0.2,Central,Health,1000,,29
+CLM-0338,POL-800395,Customer_0338,2024-11-18,2024-11-13,Fire Damage,334464.38,0,Pending,Thomas Brown,False,0.11,Central,Life,0,,15
+CLM-0339,POL-954408,Customer_0339,2025-11-10,2025-11-03,Natural Disaster,149020.71,102113.06,Approved,Robert Taylor,False,0.16,North,Property,5000,2025-12-11,31
+CLM-0340,POL-849725,Customer_0340,2024-09-01,2024-08-28,Property Damage,192048.48,0,Pending,Sarah Johnson,False,0.13,East,Property,5000,,27
+CLM-0341,POL-386566,Customer_0341,2025-12-24,2025-12-11,Natural Disaster,245162.18,0,Denied,Aisha Mohammed,False,0.04,West,Property,2500,2026-01-21,28
+CLM-0342,POL-513002,Customer_0342,2025-07-28,2025-07-28,Fire Damage,108630.54,0,Under Review,Robert Taylor,False,0.12,Central,Auto,500,,5
+CLM-0343,POL-257855,Customer_0343,2024-09-18,2024-09-05,Theft,1776.74,0,Under Review,James Wilson,False,0.16,West,Liability,2000,,30
+CLM-0344,POL-450090,Customer_0344,2025-05-13,2025-05-02,Theft,3393.86,2750.34,Settled,Priya Patel,False,0.26,Central,Life,0,2025-07-15,63
+CLM-0345,POL-408636,Customer_0345,2025-09-27,2025-09-24,Auto Collision,29115.42,0,Denied,Sarah Johnson,False,0.11,South,Property,1000,2025-11-22,56
+CLM-0346,POL-628419,Customer_0346,2025-07-18,2025-07-13,Medical Claim,35952.76,26857.13,Settled,Maria Garcia,True,0.7,South,Auto,1000,2025-08-29,42
+CLM-0347,POL-335330,Customer_0347,2025-07-05,2025-06-26,Fire Damage,108731.31,0,Denied,Sarah Johnson,False,0.11,West,Liability,2000,2025-09-02,59
+CLM-0348,POL-170906,Customer_0348,2024-10-07,2024-09-29,Natural Disaster,16662.94,15052.9,Settled,Robert Taylor,False,0.11,Central,Liability,1000,2024-11-17,41
+CLM-0349,POL-201496,Customer_0349,2025-11-19,2025-11-17,Liability,184344.59,0,Denied,James Wilson,False,0.18,South,Property,5000,2026-01-10,52
+CLM-0350,POL-798398,Customer_0350,2025-10-15,2025-10-08,Natural Disaster,166135.42,0,Denied,Priya Patel,False,0.24,South,Life,0,2026-01-07,84
+CLM-0351,POL-311501,Customer_0351,2025-07-23,2025-07-18,Property Damage,143444.61,89099.76,Settled,Thomas Brown,False,0.22,North,Life,0,2025-08-21,29
+CLM-0352,POL-986702,Customer_0352,2025-03-05,2025-03-02,Medical Claim,49672.99,33603.28,Approved,Michael Chen,False,0.19,South,Life,0,2025-05-24,80
+CLM-0353,POL-947362,Customer_0353,2025-07-20,2025-07-15,Auto Collision,10635.76,0,Pending,Aisha Mohammed,False,0.33,South,Liability,2000,,18
+CLM-0354,POL-953274,Customer_0354,2024-08-25,2024-08-21,Liability,72243.83,0,Denied,David Kim,False,0.37,East,Liability,2000,2024-10-20,56
+CLM-0355,POL-794846,Customer_0355,2024-11-02,2024-11-01,Theft,29685.18,0,Under Review,Aisha Mohammed,False,0.15,West,Auto,500,,28
+CLM-0356,POL-473070,Customer_0356,2025-08-26,2025-08-20,Property Damage,117892.1,0,Under Review,Michael Chen,False,0.33,Central,Life,0,,29
+CLM-0357,POL-660708,Customer_0357,2024-08-08,2024-08-06,Liability,50401.43,0,Pending,Robert Taylor,False,0.11,Central,Auto,500,,12
+CLM-0358,POL-248840,Customer_0358,2025-05-20,2025-05-12,Medical Claim,117039.66,91683.27,Settled,Sarah Johnson,False,0.27,North,Liability,2000,2025-07-17,58
+CLM-0359,POL-177456,Customer_0359,2025-11-23,2025-11-22,Theft,24618.56,17916.9,Settled,Maria Garcia,False,0.29,East,Liability,1000,2026-02-17,86
+CLM-0360,POL-600769,Customer_0360,2025-11-15,2025-11-14,Liability,112158.88,0,Under Review,Priya Patel,True,0.81,West,Life,0,,27
+CLM-0361,POL-495496,Customer_0361,2025-03-22,2025-03-13,Medical Claim,148601.9,0,Under Review,David Kim,False,0.35,North,Property,5000,,27
+CLM-0362,POL-195088,Customer_0362,2024-10-12,2024-09-28,Theft,34400.57,21950.72,Approved,Aisha Mohammed,False,0.27,North,Liability,1000,2024-12-15,64
+CLM-0363,POL-309534,Customer_0363,2024-08-16,2024-08-14,Liability,116370.58,0,Pending,Aisha Mohammed,False,0.13,West,Auto,1500,,17
+CLM-0364,POL-222492,Customer_0364,2025-09-19,2025-09-05,Theft,32028.58,0,Under Review,Lisa Anderson,False,0.33,West,Liability,1000,,3
+CLM-0365,POL-872990,Customer_0365,2024-10-28,2024-10-15,Fire Damage,155956.47,140238.6,Settled,Aisha Mohammed,True,0.85,East,Liability,2000,2024-11-05,8
+CLM-0366,POL-212617,Customer_0366,2025-09-28,2025-09-24,Natural Disaster,56422.11,0,Pending,Maria Garcia,False,0.24,South,Liability,2000,,26
+CLM-0367,POL-254961,Customer_0367,2025-12-20,2025-12-12,Theft,32075.31,24803.41,Settled,Aisha Mohammed,False,0.08,South,Liability,1000,2026-01-25,36
+CLM-0368,POL-972177,Customer_0368,2024-12-08,2024-11-28,Medical Claim,148346.32,128858.34,Approved,Lisa Anderson,False,0.03,North,Health,250,2025-01-09,32
+CLM-0369,POL-925031,Customer_0369,2025-02-07,2025-02-07,Medical Claim,35493.13,0,Denied,Aisha Mohammed,False,0.39,South,Liability,1000,2025-04-18,70
+CLM-0370,POL-469340,Customer_0370,2025-05-04,2025-04-21,Liability,27293.93,0,Denied,Aisha Mohammed,False,0.04,North,Auto,500,2025-05-29,25
+CLM-0371,POL-940714,Customer_0371,2025-10-25,2025-10-23,Auto Collision,49948.96,0,Denied,David Kim,False,0.19,Central,Health,500,2025-12-05,41
+CLM-0372,POL-238768,Customer_0372,2025-09-19,2025-09-06,Medical Claim,40746.05,0,Pending,Maria Garcia,False,0.16,Central,Property,2500,,30
+CLM-0373,POL-916776,Customer_0373,2025-06-16,2025-06-13,Fire Damage,366030.85,0,Denied,Sarah Johnson,False,0.08,East,Property,1000,2025-06-30,14
+CLM-0374,POL-774110,Customer_0374,2025-03-30,2025-03-17,Auto Collision,50420.88,0,Pending,Thomas Brown,False,0.29,Central,Liability,2000,,29
+CLM-0375,POL-469691,Customer_0375,2024-09-20,2024-09-20,Liability,73174.6,63026.12,Approved,Maria Garcia,False,0.01,West,Health,250,2024-10-03,13
+CLM-0376,POL-321100,Customer_0376,2025-06-01,2025-05-27,Auto Collision,51771.57,0,Under Review,Maria Garcia,False,0.33,East,Property,2500,,19
+CLM-0377,POL-437096,Customer_0377,2024-11-09,2024-11-07,Medical Claim,104647.24,90635.26,Approved,Michael Chen,False,0.02,East,Liability,2000,2024-11-13,4
+CLM-0378,POL-233685,Customer_0378,2024-08-06,2024-07-27,Fire Damage,51803.07,44834.2,Settled,Aisha Mohammed,False,0.26,East,Health,250,2024-10-27,82
+CLM-0379,POL-127495,Customer_0379,2025-03-31,2025-03-18,Theft,26848.49,0,Under Review,David Kim,False,0.06,West,Health,1000,,24
+CLM-0380,POL-146281,Customer_0380,2025-08-04,2025-07-31,Auto Collision,6881.01,0,Pending,Robert Taylor,False,0.32,East,Liability,2000,,5
+CLM-0381,POL-737548,Customer_0381,2025-05-29,2025-05-27,Natural Disaster,117127.98,96095.88,Settled,Thomas Brown,False,0.35,Central,Liability,2000,2025-06-13,15
+CLM-0382,POL-210609,Customer_0382,2025-10-31,2025-10-19,Liability,18482.74,17654.08,Settled,Lisa Anderson,False,0.09,South,Auto,500,2025-11-27,27
+CLM-0383,POL-663556,Customer_0383,2025-09-04,2025-09-03,Property Damage,185942.89,0,Pending,Aisha Mohammed,False,0.15,East,Auto,1500,,28
+CLM-0384,POL-885366,Customer_0384,2024-12-20,2024-12-15,Liability,186505.53,0,Denied,Maria Garcia,False,0.25,East,Auto,500,2025-02-11,53
+CLM-0385,POL-545943,Customer_0385,2024-12-24,2024-12-15,Fire Damage,79040.42,50315.81,Approved,Aisha Mohammed,False,0.19,West,Health,1000,2025-02-05,43
+CLM-0386,POL-737215,Customer_0386,2025-04-01,2025-03-19,Auto Collision,66696.34,46707.53,Approved,Priya Patel,False,0.04,Central,Life,0,2025-05-22,51
+CLM-0387,POL-707940,Customer_0387,2024-11-03,2024-11-03,Medical Claim,58603.84,35705.67,Settled,Maria Garcia,False,0.22,North,Property,2500,2024-12-14,41
+CLM-0388,POL-527982,Customer_0388,2025-04-15,2025-04-05,Property Damage,116649.16,0,Denied,Priya Patel,False,0.23,North,Property,1000,2025-06-08,54
+CLM-0389,POL-174810,Customer_0389,2025-05-08,2025-04-26,Auto Collision,47826.04,32874.15,Settled,Michael Chen,False,0.33,North,Auto,500,2025-06-30,53
+CLM-0390,POL-321151,Customer_0390,2025-11-12,2025-11-11,Fire Damage,110237.76,0,Denied,David Kim,False,0.37,West,Life,0,2025-12-12,30
+CLM-0391,POL-431283,Customer_0391,2025-01-30,2025-01-20,Theft,31308.15,29922.08,Settled,Sarah Johnson,False,0.18,North,Auto,1500,2025-02-20,21
+CLM-0392,POL-926558,Customer_0392,2025-07-07,2025-07-06,Natural Disaster,409215.42,0,Pending,Sarah Johnson,False,0.15,South,Life,0,,2
+CLM-0393,POL-172772,Customer_0393,2025-01-22,2025-01-14,Theft,31061.52,0,Pending,Robert Taylor,True,0.84,East,Auto,1500,,8
+CLM-0394,POL-762645,Customer_0394,2025-08-03,2025-07-27,Fire Damage,332781.88,0,Denied,Robert Taylor,False,0.23,West,Property,5000,2025-08-12,9
+CLM-0395,POL-542468,Customer_0395,2025-04-18,2025-04-17,Fire Damage,242847.24,170098.52,Approved,Maria Garcia,False,0.12,North,Property,5000,2025-04-25,7
+CLM-0396,POL-161430,Customer_0396,2025-02-07,2025-01-30,Natural Disaster,274052.68,0,Under Review,Maria Garcia,False,0.17,Central,Auto,1000,,5
+CLM-0397,POL-568659,Customer_0397,2025-08-23,2025-08-18,Medical Claim,128209.76,0,Pending,Maria Garcia,False,0.26,West,Health,500,,8
+CLM-0398,POL-715252,Customer_0398,2024-11-17,2024-11-05,Auto Collision,17119.95,0,Denied,Lisa Anderson,False,0.26,East,Health,1000,2024-12-19,32
+CLM-0399,POL-201783,Customer_0399,2025-01-13,2024-12-30,Fire Damage,196176.42,0,Denied,Aisha Mohammed,False,0.01,West,Liability,2000,2025-02-20,38
+CLM-0400,POL-347216,Customer_0400,2025-07-23,2025-07-11,Theft,21198.34,15969.91,Settled,Priya Patel,False,0.1,Central,Life,0,2025-09-06,45
+CLM-0401,POL-346270,Customer_0401,2024-11-07,2024-11-07,Liability,26169.21,0,Under Review,Michael Chen,False,0.19,East,Health,500,,23
+CLM-0402,POL-707837,Customer_0402,2025-05-17,2025-05-13,Auto Collision,64888.03,0,Under Review,James Wilson,False,0.2,East,Life,0,,14
+CLM-0403,POL-708592,Customer_0403,2025-09-10,2025-09-07,Auto Collision,44594.94,41485.59,Settled,Sarah Johnson,False,0.31,West,Health,500,2025-09-30,20
+CLM-0404,POL-988693,Customer_0404,2025-11-13,2025-11-01,Natural Disaster,78519.1,0,Denied,Priya Patel,True,0.73,Central,Property,5000,2025-11-28,15
+CLM-0405,POL-855946,Customer_0405,2025-09-04,2025-08-25,Natural Disaster,211668.68,181186.23,Settled,Sarah Johnson,False,0.19,North,Liability,2000,2025-10-01,27
+CLM-0406,POL-427865,Customer_0406,2025-04-17,2025-04-14,Auto Collision,60791.42,49841.95,Approved,David Kim,False,0.39,East,Property,5000,2025-06-03,47
+CLM-0407,POL-976075,Customer_0407,2025-01-15,2025-01-12,Property Damage,147139.27,0,Pending,Aisha Mohammed,False,0.27,West,Auto,500,,29
+CLM-0408,POL-193683,Customer_0408,2024-10-14,2024-10-07,Fire Damage,393483.84,328796.61,Approved,David Kim,False,0.24,South,Life,0,2024-10-24,10
+CLM-0409,POL-153795,Customer_0409,2024-08-20,2024-08-11,Property Damage,242481.86,235887.18,Approved,Lisa Anderson,False,0.14,West,Health,500,2024-10-24,65
+CLM-0410,POL-391959,Customer_0410,2025-06-20,2025-06-15,Liability,65603.56,63397.08,Approved,Thomas Brown,True,0.85,East,Health,1000,2025-07-09,19
+CLM-0411,POL-836050,Customer_0411,2025-03-06,2025-02-28,Natural Disaster,194401.38,0,Pending,Michael Chen,False,0.33,West,Life,0,,16
+CLM-0412,POL-794718,Customer_0412,2025-05-16,2025-05-07,Liability,140253.26,0,Under Review,Sarah Johnson,False,0.39,Central,Liability,2000,,11
+CLM-0413,POL-363264,Customer_0413,2024-08-01,2024-07-26,Fire Damage,395471.16,0,Denied,Michael Chen,False,0.16,Central,Property,1000,2024-08-25,24
+CLM-0414,POL-829570,Customer_0414,2025-10-11,2025-10-04,Theft,36813.49,0,Pending,Robert Taylor,False,0.05,West,Auto,1500,,16
+CLM-0415,POL-811290,Customer_0415,2025-01-09,2025-01-04,Natural Disaster,31468.01,0,Under Review,Lisa Anderson,False,0.35,East,Life,0,,23
+CLM-0416,POL-865757,Customer_0416,2024-09-20,2024-09-11,Natural Disaster,492315.17,395470.1,Approved,Sarah Johnson,False,0.13,West,Auto,1500,2024-10-02,12
+CLM-0417,POL-338904,Customer_0417,2024-12-07,2024-12-01,Fire Damage,170712.9,125359.74,Settled,Sarah Johnson,False,0.1,North,Property,2500,2025-02-18,73
+CLM-0418,POL-972489,Customer_0418,2025-05-13,2025-05-02,Fire Damage,254321.85,185801.28,Settled,Priya Patel,False,0.13,West,Auto,1000,2025-05-20,7
+CLM-0419,POL-335951,Customer_0419,2025-05-29,2025-05-17,Auto Collision,44838.48,0,Pending,James Wilson,False,0.17,Central,Liability,1000,,16
+CLM-0420,POL-916503,Customer_0420,2024-09-28,2024-09-15,Theft,1115.92,934.16,Approved,Lisa Anderson,False,0.03,South,Auto,1500,2024-10-24,26
+CLM-0421,POL-650653,Customer_0421,2025-02-06,2025-01-25,Theft,40881.66,0,Denied,Aisha Mohammed,False,0.27,Central,Auto,500,2025-03-07,29
+CLM-0422,POL-919632,Customer_0422,2025-04-07,2025-04-05,Natural Disaster,395114.82,0,Denied,Aisha Mohammed,False,0.31,Central,Property,1000,2025-06-06,60
+CLM-0423,POL-348297,Customer_0423,2025-01-16,2025-01-13,Auto Collision,60989.59,0,Denied,James Wilson,False,0.08,North,Property,5000,2025-03-22,65
+CLM-0424,POL-391972,Customer_0424,2024-08-25,2024-08-24,Medical Claim,34262.95,0,Denied,Lisa Anderson,False,0.18,South,Property,5000,2024-09-11,17
+CLM-0425,POL-418769,Customer_0425,2025-03-23,2025-03-16,Theft,43910.18,36068.18,Settled,Michael Chen,False,0.08,North,Auto,1000,2025-04-16,24
+CLM-0426,POL-895814,Customer_0426,2025-02-01,2025-01-26,Auto Collision,52780.65,0,Denied,Michael Chen,False,0.17,Central,Auto,1000,2025-03-13,40
+CLM-0427,POL-822436,Customer_0427,2025-04-10,2025-03-29,Medical Claim,98044.7,62512.22,Settled,Aisha Mohammed,False,0.01,East,Life,0,2025-05-27,47
+CLM-0428,POL-432799,Customer_0428,2024-08-23,2024-08-12,Medical Claim,134928.36,0,Pending,Sarah Johnson,False,0.33,South,Property,5000,,2
+CLM-0429,POL-388635,Customer_0429,2024-09-17,2024-09-07,Medical Claim,37111.23,0,Under Review,Thomas Brown,False,0.26,West,Health,250,,17
+CLM-0430,POL-340989,Customer_0430,2024-12-09,2024-12-06,Liability,26770.44,0,Denied,David Kim,False,0.03,West,Auto,1000,2025-01-19,41
+CLM-0431,POL-380594,Customer_0431,2025-06-15,2025-06-10,Auto Collision,55435.98,39848.18,Approved,Robert Taylor,False,0.13,North,Health,500,2025-08-15,61
+CLM-0432,POL-991073,Customer_0432,2024-09-10,2024-09-10,Theft,48439.89,0,Under Review,James Wilson,False,0.02,South,Health,250,,17
+CLM-0433,POL-304992,Customer_0433,2024-09-05,2024-09-05,Fire Damage,341057.33,0,Under Review,David Kim,False,0.04,Central,Life,0,,20
+CLM-0434,POL-878128,Customer_0434,2025-12-02,2025-11-22,Natural Disaster,184721.03,0,Pending,Sarah Johnson,False,0.18,East,Health,500,,2
+CLM-0435,POL-209167,Customer_0435,2025-09-12,2025-08-29,Auto Collision,44384.76,0,Pending,Maria Garcia,False,0.18,East,Property,5000,,11
+CLM-0436,POL-452225,Customer_0436,2025-06-13,2025-05-31,Property Damage,76317.24,55567.41,Approved,Maria Garcia,False,0.23,North,Liability,2000,2025-06-16,3
+CLM-0437,POL-785572,Customer_0437,2025-09-06,2025-08-29,Natural Disaster,82041.56,0,Pending,Michael Chen,False,0.07,Central,Liability,1000,,1
+CLM-0438,POL-283823,Customer_0438,2025-08-16,2025-08-07,Fire Damage,96134.52,89992.53,Settled,Maria Garcia,False,0.38,East,Liability,1000,2025-09-02,17
+CLM-0439,POL-359473,Customer_0439,2025-11-11,2025-10-28,Theft,23701.84,0,Under Review,Sarah Johnson,True,0.76,South,Life,0,,11
+CLM-0440,POL-312493,Customer_0440,2025-12-25,2025-12-16,Medical Claim,18660.77,0,Pending,Sarah Johnson,False,0.1,West,Liability,1000,,24
+CLM-0441,POL-629782,Customer_0441,2025-05-23,2025-05-19,Auto Collision,73982.96,0,Pending,Thomas Brown,False,0.04,North,Auto,1500,,10
+CLM-0442,POL-521714,Customer_0442,2024-12-15,2024-12-08,Medical Claim,37139.8,23945.47,Settled,David Kim,False,0.16,North,Auto,1500,2025-01-29,45
+CLM-0443,POL-873296,Customer_0443,2024-11-23,2024-11-21,Fire Damage,151698.59,0,Under Review,James Wilson,False,0.14,South,Life,0,,18
+CLM-0444,POL-567199,Customer_0444,2024-12-26,2024-12-24,Theft,46869.93,0,Denied,Thomas Brown,False,0.38,East,Property,2500,2025-01-08,13
+CLM-0445,POL-426843,Customer_0445,2025-07-21,2025-07-16,Fire Damage,304405.55,0,Under Review,Lisa Anderson,False,0.38,North,Property,1000,,15
+CLM-0446,POL-588080,Customer_0446,2024-10-31,2024-10-23,Liability,82922.36,0,Pending,Thomas Brown,False,0.32,East,Liability,1000,,22
+CLM-0447,POL-893796,Customer_0447,2025-01-09,2024-12-31,Theft,21843.09,0,Pending,Maria Garcia,True,0.82,Central,Auto,500,,16
+CLM-0448,POL-586368,Customer_0448,2025-11-05,2025-10-28,Theft,45187.03,0,Pending,Priya Patel,False,0.17,Central,Auto,1000,,23
+CLM-0449,POL-491618,Customer_0449,2025-12-02,2025-11-20,Theft,49953.6,0,Pending,Robert Taylor,False,0.35,West,Liability,2000,,8
+CLM-0450,POL-332233,Customer_0450,2024-10-29,2024-10-16,Medical Claim,96237.17,63892.81,Approved,Robert Taylor,False,0.35,East,Auto,500,2024-12-06,38
+CLM-0451,POL-750842,Customer_0451,2025-03-26,2025-03-16,Fire Damage,151509.79,0,Under Review,Maria Garcia,True,0.74,East,Liability,2000,,7
+CLM-0452,POL-195507,Customer_0452,2024-12-01,2024-12-01,Auto Collision,22241.98,16844.38,Settled,Robert Taylor,False,0.19,West,Health,500,2025-01-24,54
+CLM-0453,POL-295119,Customer_0453,2024-12-18,2024-12-15,Natural Disaster,469179.57,0,Denied,Thomas Brown,False,0.29,North,Liability,2000,2025-02-28,72
+CLM-0454,POL-940152,Customer_0454,2025-10-12,2025-10-06,Auto Collision,70392.29,0,Pending,David Kim,False,0.36,East,Property,5000,,30
+CLM-0455,POL-955557,Customer_0455,2025-04-04,2025-03-26,Liability,60368.09,0,Denied,Michael Chen,False,0.14,South,Health,250,2025-05-18,44
+CLM-0456,POL-741727,Customer_0456,2025-11-12,2025-11-06,Natural Disaster,421305.27,0,Under Review,Aisha Mohammed,False,0.28,South,Property,5000,,21
+CLM-0457,POL-891636,Customer_0457,2024-10-27,2024-10-25,Fire Damage,201577.98,0,Pending,Lisa Anderson,True,0.79,West,Health,1000,,10
+CLM-0458,POL-151247,Customer_0458,2025-10-24,2025-10-16,Natural Disaster,114290.6,73512.12,Settled,Michael Chen,False,0.1,West,Health,250,2025-12-03,40
+CLM-0459,POL-491096,Customer_0459,2025-04-26,2025-04-16,Medical Claim,79790.29,0,Under Review,Robert Taylor,False,0.29,South,Health,500,,1
+CLM-0460,POL-794012,Customer_0460,2025-12-05,2025-11-30,Property Damage,215988.44,133130.25,Settled,David Kim,False,0.09,East,Property,2500,2025-12-21,16
+CLM-0461,POL-881184,Customer_0461,2024-12-25,2024-12-23,Medical Claim,21032.59,0,Under Review,Aisha Mohammed,False,0.02,South,Life,0,,2
+CLM-0462,POL-526699,Customer_0462,2025-10-31,2025-10-18,Natural Disaster,34749.72,0,Denied,Maria Garcia,False,0.28,East,Auto,500,2025-12-03,33
+CLM-0463,POL-740691,Customer_0463,2024-12-05,2024-12-01,Fire Damage,285136.03,0,Under Review,Lisa Anderson,True,0.98,East,Health,1000,,27
+CLM-0464,POL-126403,Customer_0464,2025-11-19,2025-11-15,Theft,39484.92,0,Under Review,Lisa Anderson,False,0.2,Central,Life,0,,4
+CLM-0465,POL-808009,Customer_0465,2025-11-20,2025-11-06,Natural Disaster,331161.37,258553.12,Settled,Sarah Johnson,False,0.06,Central,Property,1000,2025-12-13,23
+CLM-0466,POL-869351,Customer_0466,2025-09-10,2025-09-03,Auto Collision,50699.58,0,Under Review,Thomas Brown,False,0.2,North,Health,1000,,20
+CLM-0467,POL-722075,Customer_0467,2025-09-07,2025-09-04,Property Damage,71699.3,0,Pending,Maria Garcia,False,0.36,South,Auto,1500,,2
+CLM-0468,POL-847672,Customer_0468,2025-05-01,2025-04-19,Theft,8615.93,8134.44,Approved,Lisa Anderson,False,0.3,West,Auto,1500,2025-06-08,38
+CLM-0469,POL-419749,Customer_0469,2024-10-27,2024-10-20,Auto Collision,56270.45,38511.59,Settled,Michael Chen,False,0.37,South,Property,5000,2024-11-02,6
+CLM-0470,POL-688413,Customer_0470,2024-08-02,2024-07-20,Theft,18730.3,15910.33,Settled,Lisa Anderson,True,0.9,South,Health,250,2024-10-07,66
+CLM-0471,POL-675250,Customer_0471,2024-07-20,2024-07-17,Property Damage,149740.93,107034.08,Settled,Priya Patel,False,0.28,Central,Property,1000,2024-07-23,3
+CLM-0472,POL-110931,Customer_0472,2025-07-03,2025-07-02,Liability,85887.94,64086.62,Settled,Michael Chen,False,0.2,South,Property,5000,2025-08-08,36
+CLM-0473,POL-712526,Customer_0473,2024-12-20,2024-12-16,Medical Claim,69994.72,49680.26,Approved,Michael Chen,False,0.14,South,Auto,500,2025-02-21,63
+CLM-0474,POL-560061,Customer_0474,2025-03-09,2025-03-01,Fire Damage,80705.14,50302.73,Approved,Priya Patel,False,0.3,Central,Liability,2000,2025-04-18,40
+CLM-0475,POL-525332,Customer_0475,2025-09-27,2025-09-16,Liability,160280.9,146952.9,Settled,Aisha Mohammed,False,0.03,West,Property,2500,2025-10-10,13
+CLM-0476,POL-464314,Customer_0476,2025-07-24,2025-07-16,Medical Claim,77371.91,0,Under Review,James Wilson,True,0.8,East,Liability,2000,,4
+CLM-0477,POL-172181,Customer_0477,2025-09-26,2025-09-26,Medical Claim,145299.37,0,Under Review,Lisa Anderson,False,0.26,South,Property,1000,,5
+CLM-0478,POL-481001,Customer_0478,2024-07-14,2024-07-14,Fire Damage,187284.9,0,Denied,David Kim,False,0.24,West,Life,0,2024-07-31,17
+CLM-0479,POL-678404,Customer_0479,2024-10-11,2024-10-11,Fire Damage,321255.93,292259.86,Settled,Priya Patel,False,0.14,East,Health,500,2024-11-22,42
+CLM-0480,POL-698925,Customer_0480,2024-09-20,2024-09-17,Theft,36803.47,0,Denied,Thomas Brown,False,0.26,Central,Auto,1500,2024-11-18,59
+CLM-0481,POL-909178,Customer_0481,2025-05-02,2025-04-20,Natural Disaster,94014.18,87311.08,Settled,Robert Taylor,False,0.26,West,Property,5000,2025-06-24,53
+CLM-0482,POL-176412,Customer_0482,2025-02-16,2025-02-16,Natural Disaster,48848.21,0,Under Review,Priya Patel,False,0.23,East,Life,0,,22
+CLM-0483,POL-911968,Customer_0483,2024-11-04,2024-10-28,Fire Damage,56946.02,0,Pending,Robert Taylor,False,0.32,South,Property,2500,,8
+CLM-0484,POL-204537,Customer_0484,2024-12-08,2024-12-05,Property Damage,192265.61,152329.44,Settled,Robert Taylor,False,0.08,North,Health,250,2025-01-13,36
+CLM-0485,POL-485187,Customer_0485,2025-09-30,2025-09-18,Medical Claim,47198.26,0,Denied,Michael Chen,False,0.35,South,Health,1000,2025-12-29,90
+CLM-0486,POL-304112,Customer_0486,2024-09-10,2024-08-28,Fire Damage,350947.28,279154.56,Approved,Priya Patel,False,0.25,Central,Health,1000,2024-10-12,32
+CLM-0487,POL-479524,Customer_0487,2024-12-14,2024-12-03,Fire Damage,179148.32,0,Denied,Lisa Anderson,False,0.17,South,Life,0,2025-01-06,23
+CLM-0488,POL-630779,Customer_0488,2025-06-03,2025-06-02,Liability,100444.11,0,Pending,Maria Garcia,True,0.87,Central,Property,2500,,30
+CLM-0489,POL-797609,Customer_0489,2024-11-18,2024-11-07,Theft,27223.56,23761.27,Settled,Priya Patel,False,0.25,Central,Health,250,2024-12-02,14
+CLM-0490,POL-366857,Customer_0490,2025-02-10,2025-01-31,Natural Disaster,175903.8,106267.04,Settled,Thomas Brown,False,0.15,South,Auto,1500,2025-03-04,22
+CLM-0491,POL-469959,Customer_0491,2025-07-24,2025-07-22,Liability,136012.8,108183.56,Settled,Sarah Johnson,False,0.38,East,Health,500,2025-08-10,17
+CLM-0492,POL-523443,Customer_0492,2025-09-20,2025-09-06,Natural Disaster,86013.31,0,Pending,Priya Patel,True,0.93,South,Life,0,,9
+CLM-0493,POL-969543,Customer_0493,2024-12-05,2024-11-22,Theft,8020.61,7461.66,Settled,Sarah Johnson,False,0.2,West,Liability,2000,2025-01-03,29
+CLM-0494,POL-215474,Customer_0494,2025-01-22,2025-01-12,Natural Disaster,404484.02,0,Pending,Maria Garcia,False,0.14,Central,Auto,1000,,2
+CLM-0495,POL-882445,Customer_0495,2025-10-01,2025-09-28,Property Damage,180900.47,0,Pending,Sarah Johnson,False,0.27,North,Life,0,,23
+CLM-0496,POL-523643,Customer_0496,2025-04-08,2025-04-04,Auto Collision,20481.73,0,Denied,Lisa Anderson,False,0.02,West,Auto,1500,2025-06-08,61
+CLM-0497,POL-532756,Customer_0497,2025-05-03,2025-04-30,Fire Damage,334729.63,0,Denied,Thomas Brown,False,0.38,Central,Auto,1000,2025-05-21,18
+CLM-0498,POL-709496,Customer_0498,2025-07-16,2025-07-16,Theft,29521.59,18753.23,Settled,Aisha Mohammed,False,0.37,East,Liability,2000,2025-09-19,65
+CLM-0499,POL-113706,Customer_0499,2025-07-03,2025-07-03,Theft,27583.66,0,Denied,Maria Garcia,False,0.08,West,Property,2500,2025-08-08,36
+CLM-0500,POL-294464,Customer_0500,2025-11-06,2025-11-05,Property Damage,115266.28,0,Denied,Sarah Johnson,False,0.4,West,Property,1000,2026-02-02,88
